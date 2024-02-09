@@ -5,5 +5,5 @@ const PORT=process.env.PORT
 
 const server=http.createServer(app)
 server.listen(PORT,(err)=>{
-    console.log("server is running on port $(PORT)");
+    console.log(`server is running on port ${PORT}`);
 })
